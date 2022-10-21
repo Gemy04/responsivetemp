@@ -1,0 +1,96 @@
+@media screen and (max-width: 700px) {
+    body {
+        padding: 0;
+        margin: 0;
+    }
+    .navbar {
+        margin: 2vh;
+    }
+    .navbar .links a{
+        display: none;
+    }
+    .navbar .links i{
+        display: flex;
+        font-size: x-large;
+        margin: 0;
+    }
+
+    .content {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 3vh;
+    }
+    .content .text {
+        font-size: smaller;
+        text-align: center;
+        width: 100%;
+    }
+    .content .img {
+        display: none;
+    }
+    .headser {
+        padding: 2vh;
+        margin: 5vh;
+        font-size: medium;
+        margin: auto;
+    }
+    
+    .fiveserv .one {
+        width: 100%;
+        margin: 1vh;
+    }
+    .news{
+        padding: 2vh;
+        margin: 5vh;
+        font-size: medium;
+    }
+    .newselem {
+        justify-content: center;
+    }
+    .newselem .newone {
+        margin: 2vh 0vh 2vh 0vh;
+        width: 100%;
+
+    }
+    .count{
+        padding: 2vh;
+        margin: 5vh;
+        font-size: medium;
+    }
+
+    .countelem {
+        flex-direction: column;
+    }
+    .countelem .study{
+        padding: 5vh;
+        margin-top: 3vh;
+        margin-bottom: 2vh;
+        width: 100%;
+        /* box-shadow: none; */
+
+    }
+    .ready {
+        padding: 3vh;
+        flex-direction: column;
+    }
+    
+    .ready h2 {
+        font-size: x-large;
+    }
+    
+    .ready button {
+        padding: 15px 40px;
+        margin: 2vh;
+    }
+    
+}
+
+
+@media screen and (max-width: 450px) {
+    .ready h2 {
+        font-size: large;
+    }
+    p {
+        font-size: large;
+    }
+}
