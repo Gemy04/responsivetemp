@@ -17,10 +17,20 @@ body {
 .navbar .links i {
     display: none;
 }
+
+.navbar .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
 .navbar .links a {
-    margin-left: 10vh;
     text-decoration: none;
     color: black;
+    margin-left: 15vh;
+    flex-wrap: wrap;
+
 }
 
 .navbar #zoapp {

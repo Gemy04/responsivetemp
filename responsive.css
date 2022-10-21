@@ -30,8 +30,9 @@
     }
     .headser {
         padding: 1vh;
-        margin: 10vh;
-        font-size: medium;
+        margin: 0vh;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
     }
     
     .fiveserv .one {
@@ -39,9 +40,10 @@
         margin: 1vh;
     }
     .news{
-        padding: 2vh;
-        margin: 5vh;
-        font-size: medium;
+        padding: 1vh;
+        margin: 0vh;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
     }
     .newselem {
         justify-content: center;
@@ -52,9 +54,10 @@
 
     }
     .count{
-        padding: 2vh;
-        margin: 5vh;
-        font-size: medium;
+        padding: 1vh;
+        margin: 0vh;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
     }
 
     .countelem {
