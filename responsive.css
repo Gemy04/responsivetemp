@@ -29,10 +29,9 @@
         display: none;
     }
     .headser {
-        padding: 2vh;
-        margin: 5vh;
+        padding: 1vh;
+        margin: 10vh;
         font-size: medium;
-        margin: auto;
     }
     
     .fiveserv .one {
@@ -62,7 +61,8 @@
         flex-direction: column;
     }
     .countelem .study{
-        padding: 5vh;
+        /* padding: 5vh; */
+        padding-bottom: 3vh;
         margin-top: 3vh;
         margin-bottom: 2vh;
         width: 100%;
@@ -93,4 +93,7 @@
     p {
         font-size: large;
     }
+    .footer{
+        font-size: small;
+    } 
 }
